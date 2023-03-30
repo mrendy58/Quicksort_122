@@ -15,7 +15,7 @@ void input() {
 
         if (n <= 20)
             break;
-        else
+        else 
             cout << "\nMasukan Panjang array adalah 20" << endl;
 
     }
