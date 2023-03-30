@@ -39,7 +39,7 @@ void swap(int x, int y)
     arr[x] = arr[y];
     arr[y] = temp; 
 }
-void q_short(int low, int high)
+void q_short(int low, int high) 
 {
     int pivot, i, j;
     if (low > high)                             //langkah Algoritma No.1
