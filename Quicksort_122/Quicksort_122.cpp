@@ -10,7 +10,7 @@ int n;
 void input() {
     while (true)
     {
-        cout << "Masukan Panjang element array";
+        cout << "Masukan Panjang element array :";
         cin >> n;
 
         if (n <= 20)
@@ -26,7 +26,7 @@ void input() {
     for (int i = 0; i < n; i++)
     {
         cout << "<" << (i + 1) << ">";
-        cin >> arr[1];
+        cin >> arr[i];
     
     }
 }
@@ -50,7 +50,7 @@ void q_short(int low, int high)
     // outher containing elements greather than pivot
 
 
-    pivot == arr[low];                           //langkah Algoritma No.2
+    pivot = arr[low];                           //langkah Algoritma No.2
 
     i = low + 1;                                 //langkah Algoritma No.3
     j = high;                                    //langkah Algoritma No.4
