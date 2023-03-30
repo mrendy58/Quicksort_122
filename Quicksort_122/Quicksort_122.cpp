@@ -70,7 +70,7 @@ void q_short(int low, int high)
         while ((arr[j] > pivot) && (j >= low))            //langkah Algoritma No.7
         {
             j--;                                           //langkah Algoritma No.8
-            cmp_count++;
+            cmp_count++; 
         }
         cmp_count;
 
